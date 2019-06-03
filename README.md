@@ -1,2 +1,4 @@
-https://discord.gg/ZtTccY7
+https://discord.gg/ZuDnp6B
+
+
 Techno bot Discord sunucusu... 

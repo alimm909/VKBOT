@@ -13,7 +13,7 @@
 
   "version": "0.0.1",
 
-  "description": "A simple Node app built on Express, instantly up and running.",
+  "description": "techno bot discord sunucusuna özel alt yapı bot.",
 
   "main": "server.js",
 
