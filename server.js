@@ -158,5 +158,5 @@ client.on('error', e => {
 
 
 
-client.login(process.env.TOKEN);
+client.login(ayarlar.token);
 //techno bot
