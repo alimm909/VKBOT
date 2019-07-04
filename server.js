@@ -1,4 +1,5 @@
-const Discord = require('discord.js');
+-ğ
+üconst Discord = require('discord.js');
 const client = new Discord.Client();
 const ayarlar = require('./ayarlar.json');
 const chalk = require('chalk');
