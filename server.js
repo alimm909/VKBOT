@@ -9,6 +9,8 @@ const db = require('quick.db')
 const Jimp = require('jimp');
 const snekfetch = require('snekfetch');
 require('./util/eventLoader')(client);
+const bottoken = require('./bottoken.json');
+
 
 let owner = "309617463857905674" //Kendi ıdnizi ekleyin
 
@@ -159,5 +161,5 @@ client.on('error', e => {
 
 
 
-client.login(ayarlar.token);
+client.login(bottoken.token);
 //techno bot
