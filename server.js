@@ -12,7 +12,7 @@ require('./util/eventLoader')(client);
 const bottoken = require('./bottoken.json');
 
 
-let owner = "404233441065041920" //Kendi ıdnizi ekleyin
+let owner = "" //Kendi ıdnizi ekleyin
 
 
 const http = require('http');
