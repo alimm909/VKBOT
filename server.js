@@ -45,19 +45,6 @@ const log = message => {
 var prefix = ayarlar.prefix;
 
 
-client.on("message", message => {
-  const dmchannel = client.channels.find("name", "dm");
-  if (message.channel.type === "dm") {
-      if (message.author.id === client.user.id) return;
-      dmchannel.sendMessage("", {embed: {
-              color: 3447003,
-              title: `DM Atan Kişi: **${message.author.tag}**`,
-              description: `Dm Mesajı: **${message.content}**`
-            }})
-  }
-  if (message.channel.bot) return;
-});
-
 
 client.on("ready", () => {
   client.user.setActivity(prefix + "yardım ") 
