@@ -8,17 +8,17 @@ const db = require('quick.db')
 const Jimp = require('jimp');
 const snekfetch = require('snekfetch');
 require('./util/eventLoader')(client);
-const bottoken = require('./bottoken.json');
+const token = require('./ayarlar.json');
 
 
-let owner = "" //Kendi ıdnizi ekleyin
+let owner = ""
 
 
 const http = require('http');
 const express = require('express');
 const app = express();
 app.get("/", (request, response) => {
-      console.log(`az önce panelime birisi tıkladı -_-`);
+      console.log(`Daphro Online :)`);
   response.sendStatus(200);
 });
 app.listen(process.env.PORT);
@@ -26,29 +26,11 @@ setInterval(() => {
   http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
 }, 280000);
 
-
-
-
-
-
-
-
-
-
-
 const log = message => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
 };
 
-
 var prefix = ayarlar.prefix;
-
-
-
-client.on("ready", () => {
-  client.user.setActivity(prefix + "yardım ") 
-  console.log("Bağlandım!")   
-});
 
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
@@ -141,5 +123,5 @@ client.on('error', e => {
 
 
 
-client.login(bottoken.token);
-//techno bot
+client.login(ayarlar.token);
+//daphro
