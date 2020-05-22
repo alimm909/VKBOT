@@ -1,0 +1,10 @@
+client.on("message", m => {
+  if (m.channel.id !== "KANALID") { //buraya o kanalın ID'si yazılacak.
+    return;
+  }
+  if (m.author.id === m.guild.ownerID) return;
+  if (m.attachments.size < 1) {
+
+    m.delete();
+  }
+});
