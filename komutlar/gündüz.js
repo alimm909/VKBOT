@@ -12,14 +12,12 @@ message.channel.send('<a:bsa:713494455952605224> **Gündüz Oldu Chat Açık** <
 };
   
 
- 
 exports.conf = {
   enabled: true,
   guildOnly: true,
   aliases: ['gündüz'],
   permLevel: 0
 };
-
 
 exports.help = {
   name: 'gündüz',
