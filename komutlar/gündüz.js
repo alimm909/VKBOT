@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 exports.run = (client, message, args) => {
   
 if(!message.member.roles.has("713485941452308521")) return message.channel.send(`Sadece **VK Yetkilisi** Bunu Kullanabilir !`)
-  let every = message.guild.roles.find(r => r.name === '@everyone')
+  let every = message.guild.roles.find(r => r.name === 'VK')
 message.channel.overwritePermissions(every, {
   'SEND_MESSAGES': true,
  
