@@ -11,7 +11,7 @@ require('./util/eventLoader')(client);
 const token = require('./ayarlar.json');
 
 
-let owner = ""
+let owner = "709459414360260638"
 
 
 const http = require('http');
