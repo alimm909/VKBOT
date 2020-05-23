@@ -56,9 +56,9 @@ module.exports.run = async (client, message, args) => {
 exports.conf = {
   enabled: true,
   guildOnly: true,
-  aliases: ['seç20','seç3','rol3','roller3'],
+  aliases: ['seç15','seç2','rol2','roller2'],
   permLevel: 0
 };
 exports.help = {
-  name: 'roller3'
+  name: 'roller2'
 };
