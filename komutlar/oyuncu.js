@@ -11,9 +11,9 @@ exports.run = (client, message, args) => {
             .addField('<a:loading:697014306268643339> Komutlarımız aşağıda yazmaktadır.', '⠀')
         .addField(
 `VK Komutlar`,
-`<a:venosa_hypsquad:697014806372155413> | **${ayarlar.prefix}yetkili** Yetkili komutlarını gösterir.
-<a:venosa_hypesquad:697014806372155413> | **${ayarlar.prefix}oyuncu** Oyuncu komutlarını gösterir.
-<a:venosa_hypesquad:697014806372155413> | **${ayarlar.prefix}eğlence [KAPALI]** Eğlence komutlarını gösterir.`)
+`<a:venosa_1:697015071661883422> | **${ayarlar.prefix}oyver** Etiketlediğin Kullanıcıya Oy Verirsin.
+<a:venosa_2:697015515603927150> | Loading.Örnek Kullanım: **${ayarlar.prefix}seç20 <seslikanalid>**
+`)
         .setThumbnail(client.user.avatarURL)
     .addField('<a:kalpler:697013879854727169> Sizde beni sunucunuza davet etmek mi istiyorsunuz ?', '`!!davet` Yazarak Beni Sunucuna Davet Edebilirsin ^^')
         .setFooter(`Developed By 'Myrøn#6966`)
@@ -24,12 +24,12 @@ exports.run = (client, message, args) => {
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: ['help','yardim'],
+  aliases: ['oyuncu','kullanıcı','kullanici'],
   permLevel: 0,
 };
 
 exports.help = {
-  name: 'yardım',
+  name: 'oyuncu',
   description: '',
   usage: 'yardım'
 };
