@@ -2,9 +2,17 @@ const Discord = require('discord.js');
 
 exports.run = (client, message, args) => {
   let mesaj = args.slice(0).join(' ');
-if (mesaj.length < 1) return message.reply('Yazmam için herhangi bir şey yazmalısın.');
+  let user = message.mentions.users.first();
+  if (!user) return message.reply('Oy Vereceğin Kişiyi Etiketlemelisin !');
+  
+  if (user.bot === true) return message.reply('Bir insanı etiketle bot değil!');
+  let x = /(m a l|ma l|m al|amk|sg|oç|sik|amına|amın|orospu|orospo|çocuğu|orosbu|orosbo|cocugu|mal|salak|kapçuk|amcık|amcuk|sikik|amk malı|amına kodum|amınakoduğum|amına koduğum)/
+  if (mesaj.match(x)) return message.reply('Lütfen Geçerli Birine Oy Veriniz.');
+  
   message.delete();
-  message.channel.send(mesaj);
+if (mesaj.length < 1) return message.reply('Birine Oy Vermelisin.');
+  message.delete();
+  message.channel.send(``+ message.author +`, ** ` + mesaj + ` **Kişisine Oy Verdi !`);
 };
 
 exports.conf = {
