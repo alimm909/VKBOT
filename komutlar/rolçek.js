@@ -9,7 +9,7 @@ module.exports.run = async (client, message, args) => {
        let kanal = message.guild.channels.get(args[0]);
        
        if(!kanal) {
-         message.channel.send("Rolleri Seçmek İçin Kanal İdsini Giriniz. Doğru kullanım **!seç20 <sesli kanal id>**")
+         message.channel.send("Rolleri Seçmek İçin Kanal İdsini Giriniz. Doğru kullanım **!!seç20 <sesli kanal id>**")
        } 
         if(kanal) {
           const embed = new Discord.RichEmbed()

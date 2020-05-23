@@ -5,11 +5,23 @@ const ayarlar = require('../ayarlar.json');
 
 var prefix = ayarlar.prefix;
 
-
 module.exports = client => {
-  console.log(`BOT: ${client.user.username} ismi ile giriş yapıldı!`);
-  client.user.setStatus("idle");
-  client.user.setGame(`VK Bot`);
-  console.log(`BOT: Şu an ` + client.channels.size + ` adet kanala, ` + client.guilds.size + ` adet sunucuya ve ` + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + ` kullanıcıya hizmet veriliyor !`);
+var musti = [
+        `${client.users.size} Kullanıcı + ${prefix}yardım`,
+        `💎 ${prefix}help`,
+  `Coded By 'Myrøn#6966`
+    ];
+
+    setInterval(function() {
+
+        var random = Math.floor(Math.random()*(musti.length-0+1)+0);
+
+        client.user.setActivity(musti[random], { type: "WATCHING" });
+        }, 2 * 2500);
+      client.user.setStatus("idle");
 };
-//daphro
+
+//  client.user.setGame(); 
+// client.user.setGame();
+
+ 
