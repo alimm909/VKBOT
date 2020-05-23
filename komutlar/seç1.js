@@ -26,16 +26,7 @@ module.exports.run = async (client, message, args) => {
 ,`Doktor: ` + kanal.members.random().user)
           .addField(
             `▬▬▬▬▬▬`
-,`Seri Katil: ` + kanal.members.random().user)
-          .addField(
-            `▬▬▬▬▬▬`
 ,`Büyücü: ` + kanal.members.random().user)
-          .addField(
-            `▬▬▬▬▬▬`
-,`Avcı: ` + kanal.members.random().user)
-          .addField(
-            `▬▬▬▬▬▬`
-,`Escort: ` + kanal.members.random().user)
           .addField(
             `▬▬▬▬▬▬`
 ,`Soytarı: ` + kanal.members.random().user)
@@ -47,9 +38,9 @@ module.exports.run = async (client, message, args) => {
 exports.conf = {
   enabled: true,
   guildOnly: true,
-  aliases: ['seç15','seç2','rol2','roller2'],
+  aliases: ['seç10','seç1','rol1','roller1'],
   permLevel: 0
 };
 exports.help = {
-  name: 'roller2'
+  name: 'roller1'
 };
