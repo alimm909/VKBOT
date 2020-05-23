@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const ms = require("ms");
 
 exports.run = (client, message, args) => {
-  if(!message.member.roles.has("713485941452308521")) return message.channel.send("Sadece **VK Yetkilisi** Bunu Kullanabilir !")
+  if(!message.member.roles.has("713739848548220940")) return message.channel.send("Sadece **VK Yetkilisi** Bunu Kullanabilir !")
     let kullanici = message.mentions.members.first()
     
    
