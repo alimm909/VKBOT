@@ -15,9 +15,9 @@ module.exports.run = async (client, message, args) => {
           const embed = new Discord.RichEmbed()
           .setAuthor(message.guild.name, message.guild.iconURL)
           .setColor('RANDOM')
-          .setDescription("Vampir Olan Kişi: " + kanal.members.random().user ? kanal.members.random().user : "Kanalda Kimse Yok")
+          .setDescription("Vampir Olan Kişi: " + kanal.members.random().user ? kanal.members.random().user : "Kanalda Kimse" "Yok Vampir Olan Kişi: "  + kanal.members.random().user ? kanal.members.random().user : "Kanalda Kimse Yok" )
           .setTimestamp()
-           .setFooter(`${client.user.tag}`)
+           .setFooter(`Developed By Myron`)
           message.channel.send(embed)
         }
 }
