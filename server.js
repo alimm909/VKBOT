@@ -121,7 +121,7 @@ client.on('error', e => {
 });
 
 client.on("message", msg => {
-var dm = client.channels.get("713791454459330602")
+var dm = client.channels.get("713780940958072872")
 if(msg.channel.type === "dm") {
 if(msg.author.id === client.user.id) return;
 const botdm = new Discord.RichEmbed()
