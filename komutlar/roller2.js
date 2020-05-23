@@ -36,6 +36,7 @@ module.exports.run = async (client, message, args) => {
           .setTimestamp()
            .setFooter(`ৡ Developed By Myrøn`)
           message.channel.send(embed)
+  message.delete()
         }
 exports.conf = {
   enabled: true,

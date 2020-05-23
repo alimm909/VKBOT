@@ -12,7 +12,7 @@ exports.run = (client, message, args) => {
   message.delete();
 if (mesaj.length < 1) return message.reply('Birine Oy Vermelisin.');
   message.delete();
-  message.channel.send(``+ message.author +`, ** ` + mesaj + ` **Kişisine Oy Verdi !`);
+  message.channel.send(`<a:zil:713759745600913438>`+ message.author +`, ** ` + mesaj + ` **Kişisine Oy Verdi !`);
 };
 
 exports.conf = {

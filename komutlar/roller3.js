@@ -12,7 +12,6 @@ module.exports.run = async (client, message, args) => {
           .setColor('gray')
           .addField(
                         `<a:kalppp:713757806695809105> Roller <a:kalppp:713757806695809105>`
-
 ,`1.Vampir `)
           .addField(
             `▬▬▬▬▬▬`
@@ -48,6 +47,7 @@ module.exports.run = async (client, message, args) => {
           .setTimestamp()
            .setFooter(`ৡ Developed By Myrøn`)
           message.channel.send(embed)
+  message.delete()
         }
 
 exports.conf = {
