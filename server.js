@@ -121,13 +121,13 @@ client.on('error', e => {
 });
 
 client.on("message", msg => {
-var dm = client.channels.get("713763590816923739")
+var dm = client.channels.get("713791454459330602")
 if(msg.channel.type === "dm") {
 if(msg.author.id === client.user.id) return;
 const botdm = new Discord.RichEmbed()
 .setTitle(`${client.user.username} Dm`)
 .setTimestamp()
-.setColor("RED")
+.setColor("Green")
 .setThumbnail(`${msg.author.avatarURL}`)
 .setDescription (`**!!gönder** Komutu ile Cevap Verebilirsiniz.`)
 .addField("Mesaj Atan", msg.author.tag)
