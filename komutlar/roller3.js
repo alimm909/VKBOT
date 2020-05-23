@@ -9,7 +9,7 @@ module.exports.run = async (client, message, args) => {
        let kanal = message.guild.channels.get(args[0]);
        
        if(!kanal) {
-         message.channel.send("Rolleri Seçmek İçin Kanal İdsini Giriniz. Doğru kullanım **!!seç20 <sesli kanal id>**")
+         message.channel.send("Rolleri Seçmek İçin Kanal İdsini Giriniz. Doğru kullanım **!!roller20 <sesli kanal id>**")
        } 
         if(kanal) {
           const embed = new Discord.RichEmbed()
@@ -17,19 +17,37 @@ module.exports.run = async (client, message, args) => {
           .setColor('gray')
           .addField(
             `Roller`
-,`1.Vampir: ` + kanal.members.random().user)
+,`1.Vampir `)
           .addField(
             `▬▬▬▬▬▬`
-,`2.Vampir: ` + kanal.members.random().user)
+,`2.Vampir `)
           .addField(
             `▬▬▬▬▬▬`
-,`Doktor: ` + kanal.members.random().user)
+,`3.Vampir `)
           .addField(
             `▬▬▬▬▬▬`
-,`Büyücü: ` + kanal.members.random().user)
+,`Doktor `)
           .addField(
             `▬▬▬▬▬▬`
-,`Soytarı: ` + kanal.members.random().user)
+,`Seri Katil `)
+          .addField(
+            `▬▬▬▬▬▬`
+,`Büyücü: `)
+          .addField(
+            `▬▬▬▬▬▬`
+,`Avcı `)
+          .addField(
+            `▬▬▬▬▬▬`
+,`Escort `)
+          .addField(
+            `▬▬▬▬▬▬`
+,`Soytarı `)
+          .addField(
+            `▬▬▬▬▬▬`
+,`BodyGuard `)
+          .addField(
+            `▬▬▬▬▬▬`
+,`Şerif `)
           .setTimestamp()
            .setFooter(`ৡ Developed By Myrøn`)
           message.channel.send(embed)
@@ -38,9 +56,9 @@ module.exports.run = async (client, message, args) => {
 exports.conf = {
   enabled: true,
   guildOnly: true,
-  aliases: ['seç10','seç1'],
+  aliases: ['rol3'],
   permLevel: 0
 };
 exports.help = {
-  name: 'seç1'
+  name: 'roller3'
 };
