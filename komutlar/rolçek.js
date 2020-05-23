@@ -14,13 +14,34 @@ module.exports.run = async (client, message, args) => {
         if(kanal) {
           const embed = new Discord.RichEmbed()
           .setAuthor(message.guild.name, message.guild.iconURL)
-          .setColor('RANDOM')
+          .setColor('gray')
           .addField(
             `Roller`
 ,`1.Vampir: ` + kanal.members.random().user)
           .addField(
-            `s`
+            `⠀`
 ,`2.Vampir: ` + kanal.members.random().user)
+          .addField(
+            `⠀`
+,`3.Vampir: ` + kanal.members.random().user)
+          .addField(
+            `⠀`
+,`Doktor: ` + kanal.members.random().user)
+          .addField(
+            `⠀`
+,`Seri Katil: ` + kanal.members.random().user)
+          .addField(
+            `⠀`
+,`Büyücü: ` + kanal.members.random().user)
+          .addField(
+            `⠀`
+,`Avcı: ` + kanal.members.random().user)
+          .addField(
+            `⠀`
+,`Escort: ` + kanal.members.random().user)
+          .addField(
+            `⠀`
+,`Soytarı: ` + kanal.members.random().user)
           .setTimestamp()
            .setFooter(`Developed By Myron`)
           message.channel.send(embed)
@@ -29,9 +50,9 @@ module.exports.run = async (client, message, args) => {
 exports.conf = {
   enabled: true,
   guildOnly: true,
-  aliases: ['vampir'],
+  aliases: ['seç20'],
   permLevel: 0
 };
 exports.help = {
-  name: 'sesliçekiliş'
+  name: 'seç20'
 };
