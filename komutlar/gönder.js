@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
 exports.run = (client, message, args) => { 
   
-  if(message.author.id !== '709459414360260638') return message.reply('Sen kullanamazsın')
-  
+  if(!message.member.roles.has("713485941452308521")) return message.channel.send(`Sadece **VK Yetkilisi** Bunu Kullanabilir !`)
+
   let id = args[0] 
   let myron = args.slice(1).join(' ');
   

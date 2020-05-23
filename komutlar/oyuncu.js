@@ -12,7 +12,7 @@ exports.run = (client, message, args) => {
         .addField(
 `VK Komutlar`,
 `<a:venosa_1:697015071661883422> | **${ayarlar.prefix}oyver** Etiketlediğin Kullanıcıya Oy Verirsin.
-<a:venosa_2:697015515603927150> | Loading.Örnek Kullanım: **${ayarlar.prefix}seç20 <seslikanalid>**
+<a:venosa_2:697015515603927150> | Loading...
 `)
         .setThumbnail(client.user.avatarURL)
     .addField('<a:kalpler:697013879854727169> Sizde beni sunucunuza davet etmek mi istiyorsunuz ?', '`!!davet` Yazarak Beni Sunucuna Davet Edebilirsin ^^')
