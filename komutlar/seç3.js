@@ -43,8 +43,8 @@ module.exports.run = async (client, message, args) => {
             `▬▬▬▬▬▬`
 ,`Soytarı: ` + kanal.members.random().user)
           .addField(
-            ``
-            ,`Body Guard: ` + kanal.members.random().user)
+            `▬▬▬▬▬▬`
+,`BodyGuard: ` + kanal.members.random().user)
           .setTimestamp()
            .setFooter(`ৡ Developed By Myrøn`)
           message.channel.send(embed)
