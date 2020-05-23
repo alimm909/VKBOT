@@ -9,7 +9,7 @@ module.exports.run = async (client, message, args) => {
        let kanal = message.guild.channels.get(args[0]);
        
        if(!kanal) {
-         message.channel.send('Vapmiri Seçmek İçin Kanal İdsini Giriniz. Doğru kullanım **!vampir <sesli kanal id>**')
+         message.channel.send("Rolleri Seçmek İçin Kanal İdsini Giriniz. Doğru kullanım **!seç20 <sesli kanal id>**")
        } 
         if(kanal) {
           const embed = new Discord.RichEmbed()
@@ -19,31 +19,31 @@ module.exports.run = async (client, message, args) => {
             `Roller`
 ,`1.Vampir: ` + kanal.members.random().user)
           .addField(
-            `⠀`
+            `▬▬▬▬▬▬`
 ,`2.Vampir: ` + kanal.members.random().user)
           .addField(
-            `⠀`
+            `▬▬▬▬▬▬`
 ,`3.Vampir: ` + kanal.members.random().user)
           .addField(
-            `⠀`
+            `▬▬▬▬▬▬`
 ,`Doktor: ` + kanal.members.random().user)
           .addField(
-            `⠀`
+            `▬▬▬▬▬▬`
 ,`Seri Katil: ` + kanal.members.random().user)
           .addField(
-            `⠀`
+            `▬▬▬▬▬▬`
 ,`Büyücü: ` + kanal.members.random().user)
           .addField(
-            `⠀`
+            `▬▬▬▬▬▬`
 ,`Avcı: ` + kanal.members.random().user)
           .addField(
-            `⠀`
+            `▬▬▬▬▬▬`
 ,`Escort: ` + kanal.members.random().user)
           .addField(
-            `⠀`
+            `▬▬▬▬▬▬`
 ,`Soytarı: ` + kanal.members.random().user)
           .setTimestamp()
-           .setFooter(`Developed By Myron`)
+           .setFooter(`ৡ Developed By Myrøn`)
           message.channel.send(embed)
         }
 }
