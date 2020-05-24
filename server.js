@@ -11,7 +11,7 @@ require('./util/eventLoader')(client);
 const token = require('./ayarlar.json');
 
 
-let owner = "709459414360260638"
+let owner = "kurucu id"
 
 
 const http = require('http');
@@ -121,7 +121,7 @@ client.on('error', e => {
 });
 
 client.on("message", msg => {
-var dm = client.channels.get("713780940958072872")
+var dm = client.channels.get("bota dm gelince mesaj gelen kanal id")
 if(msg.channel.type === "dm") {
 if(msg.author.id === client.user.id) return;
 const botdm = new Discord.RichEmbed()
