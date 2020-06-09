@@ -8,7 +8,7 @@ message.channel.overwritePermissions(every, {
  
 })
   
-message.channel.send('<a:bsa:713494455952605224> **Gece Oldu Chat Kapalı !** <a:bsa:713494455793090632>')
+message.channel.send('<a:bsa:713494455952605224> **It's Night Chat Off!** <a:bsa:713494455793090632>')
 };
   
 
