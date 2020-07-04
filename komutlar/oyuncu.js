@@ -10,13 +10,11 @@ exports.run = (client, message, args) => {
    
             .addField('<a:pin:728934006606790679> ・ Komutlarımız Aşağıda Yazmaktadır!', '⠀')
         .addField(
-`VK Komutlar`,
-`<a:venosa_1:697015071661883422> | **${ayarlar.prefix}oyver** Etiketlediğin Kullanıcıya Oy Verirsin.
-<a:venosa_2:697015515603927150> | Loading...
+`Kurt-Adam Komutlar`
+`<a:dance:728935587930964098> ・ **${ayarlar.prefix}oyver** Etiketlediğin Kullanıcıya Oy Verirsin.
+<a:havali:728933960293416960> ・ Yükleniyor...
 `)
         .setThumbnail(client.user.avatarURL)
-    .addField('<a:kalpler:697013879854727169> Sizde beni sunucunuza davet etmek mi istiyorsunuz ?', '`!!davet` Yazarak Beni Sunucuna Davet Edebilirsin ^^')
-        .setFooter(`Developed By 'Myrøn#6966`)
       return message.channel.sendEmbed(embed);
 
 };
