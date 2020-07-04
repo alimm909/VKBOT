@@ -8,7 +8,7 @@ exports.run = (client, message, args) => {
         
         .setColor('0x36393E')
    
-            .addField('<a:loading:697014306268643339> Komutlarımız aşağıda yazmaktadır.', '⠀')
+            .addField('<a:pin:728934006606790679> ・ Komutlarımız Aşağıda Yazmaktadır!', '⠀')
         .addField(
 `VK Komutlar`,
 `<a:venosa_1:697015071661883422> | **${ayarlar.prefix}oyver** Etiketlediğin Kullanıcıya Oy Verirsin.

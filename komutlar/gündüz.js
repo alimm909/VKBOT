@@ -1,14 +1,14 @@
 const Discord = require('discord.js');
 exports.run = (client, message, args) => {
   
-if(!message.member.roles.has("vk yetkilisi rolü id")) return message.channel.send(`Sadece **VK Yetkilisi** Bunu Kullanabilir !`)
+if(!message.member.roles.has("vk yetkilisi rolü id")) return message.channel.send(`<a:mal:728931807512494080> ・ Sadece **Yetkili** Bu Komudu Kullanabilir !`)
   let every = message.guild.roles.find(r => r.name === 'VK')
 message.channel.overwritePermissions(every, {
   'SEND_MESSAGES': true,
  
 })
   
-message.channel.send('<a:bsa:713494455952605224> **Gündüz Oldu Chat Açık** <a:bsa:713494455793090632>')
+message.channel.send('<a:papagan:728931868874899508> ・ **Gündüz Oldu Sohbet Açık!**')
 };
   
 
