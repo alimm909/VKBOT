@@ -11,13 +11,11 @@ exports.run = (client, message, args) => {
             .addField('<a:pin:728934006606790679> ・ Komutlarımız Aşağıda Yazmaktadır!', '⠀')
         .addField(
 `Kurt - Adam Komutlar`,
-`<a:venosa_1:697015071661883422> | **!gece** Gece Olur ve Chati Kapatır.
-<a:venosa_2:697015515603927150> | **!gündüz** Gündüz Olur ve Chati Açar.
-<a:venosa_3:697015515415183380> | **!seç<üyeasıyısı> <seslikanalid>** ID'sini Girmiş Olduğunuz Sesli Kanaldaki Kullanıcılar Arasından Rolleri Seçer
-Örnek Kullanım: **!seç1 / !seç2 / !seç3 <Sesli Kanal İd>**
-<a:venosa_4:697015515641806888> | **!gönder @kullanıcı <mesaj>** Etiketlediğiniz Kullanıcıya DM Atarsınız.
-Örnek Kullanım: **!gönder @kullanıcı Senin Rolün Vampir**
-<a:venosa_5:697015079220150284> | **!sustur** Etiketlediğiniz Kullanıcıyı Ses Kanalında Susturur.
+`<a:diamond:728935548114436166> ・ **!gece** Gece Olur ve Chati Kapatır.
+<a:diamond:728935548114436166> ・ **!gündüz** Gündüz Olur ve Chati Açar.
+<a:diamond:728935548114436166> ・ **!seç <seslikanalid>** Girmiş Olduğunuz Sesli Kanaldaki Kullanıcılar Arasından Rolleri Seçer
+<a:diamond:728935548114436166> ・ **!gönder @kullanıcı <mesaj>** Etiketlediğiniz Kullanıcıya DM Atarsınız.
+<a:diamond:728935548114436166> ・ **!sustur** Etiketlediğiniz Kullanıcıyı Ses Kanalında Susturur.
 `)
         .setThumbnail(client.user.avatarURL)
       return message.channel.sendEmbed(embed);
