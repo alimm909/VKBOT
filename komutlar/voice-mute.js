@@ -6,10 +6,10 @@ exports.run = (client, message, args) => {
     let kullanici = message.mentions.members.first()
     
    
-    if (!kullanici) return message.channel.send("Kimi susturacağını belirtmedin.")
+    if (!kullanici) return message.channel.send("<a:hyr:728937091068854282> ・ Kimi Susturacağını Belirtmedin.")
     kullanici.setMute(true, `Susturan yetkili: ${message.author.tag}`)
         .then(() =>
-            message.channel.send(`<a:onayklkn:713759745600913438> ${kullanici} ses kanallarında susturuldu.`))
+            message.channel.send(`<a:uyari:728944635401207870> ・ ${kullanici} Ses Kanallarında Susturuldu.`))
         .catch(console.error);
         
     },

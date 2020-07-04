@@ -4,7 +4,7 @@ const prefix = ayarlar.prefix
 const client = new Discord.Client();
 module.exports.run = async (client, message, args) => {
   
-  if(!message.member.roles.has("vk yöneticisi rolü id")) return message.channel.send('<a:hyr:728937091068854282> ・ Sadece **Yetkili** Bu Komudu Kullanabilir !')
+  if(!message.member.roles.has("728928753215995914")) return message.channel.send('<a:hyr:728937091068854282> ・ Sadece **Yetkili** Bu Komudu Kullanabilir !')
   
        let kanal = message.guild.channels.get(args[0]);
        
@@ -17,10 +17,10 @@ module.exports.run = async (client, message, args) => {
           .setColor('RANDOM')
           .addField(
             `Roller`
-,`1.Vampir: ` + kanal.members.random().user)
+,`1. Kurt: ` + kanal.members.random().user)
           .addField(
             `▬▬▬▬▬▬`
-,`2.Vampir: ` + kanal.members.random().user)
+,`2. Kurt: ` + kanal.members.random().user)
           .addField(
             `▬▬▬▬▬▬`
 ,`Doktor: ` + kanal.members.random().user)

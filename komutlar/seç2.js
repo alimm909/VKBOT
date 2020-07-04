@@ -17,10 +17,10 @@ module.exports.run = async (client, message, args) => {
           .setColor('RANDOM')
           .addField(
             `Roller`
-,`1.Vampir: ` + kanal.members.random().user)
+,`1. Kurt: ` + kanal.members.random().user)
           .addField(
             `▬▬▬▬▬▬`
-,`2.Vampir: ` + kanal.members.random().user)
+,`2. Kurt: ` + kanal.members.random().user)
           .addField(
             `▬▬▬▬▬▬`
 ,`Doktor: ` + kanal.members.random().user)
