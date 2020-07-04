@@ -26,7 +26,7 @@ const embed = new Discord.RichEmbed()
 ,`Doktor: ` + kanal.members.random().user)
           .addField(
             `▬▬▬▬▬▬`
-,`Medyum: ` + kanal.members.random().user)
+,`Köylü: ` + kanal.members.random().user)
           .addField(
             `▬▬▬▬▬▬`
 ,`Aura Gözcüsü: ` + kanal.members.random().user)
