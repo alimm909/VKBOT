@@ -9,11 +9,10 @@ exports.run = (client, message, args) => {
 .setColor('0x36393E')
 .addField(
 `Kurt - Adam Oyuncu Komutları`,
-`<a:diamond:728935548114436166> ・ **!oyver** Gece Olur ve Chati Kapatır.
-<a:diamond:728935548114436166> ・ **!gündüz** Gündüz Olur ve Chati Açar.`)
-        .setThumbnail(client.user.avatarURL)
-      return message.channel.sendEmbed(embed);
-
+`<a:diamond:728935548114436166> ・ **!oyver** Etiketlediğiniz Kişiye Oy Verir.
+<a:diamond:728935548114436166> ・ **!rol1** Rolleri Gösterir.`)
+.setThumbnail(client.user.avatarURL)
+return message.channel.sendEmbed(embed);
 };
 
 exports.conf = {

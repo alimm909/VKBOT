@@ -16,14 +16,14 @@ if (mesaj.length < 1) return message.reply('<a:hyr:728937091068854282> ・ Birin
 };
 
 exports.conf = {
-  enabled: true,
-  guildOnly: false,
-  aliases: ['oyver'],
-  permLevel: 0
+enabled: true,
+guildOnly: false,
+aliases: ['oyver'],
+permLevel: 0
 };
 
 exports.help = {
-  name: 'oyver',
-  description: 'İstediğiniz şeyi bota yazdırır.',
-  usage: 'yaz [yazdırmak istediğiniz şey]'
+name: 'oyver',
+description: 'İstediğiniz şeyi bota yazdırır.',
+usage: 'yaz [yazdırmak istediğiniz şey]'
 };
