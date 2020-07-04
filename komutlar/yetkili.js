@@ -13,9 +13,8 @@ exports.run = (client, message, args) => {
 `Kurt - Adam Komutlar`,
 `<a:diamond:728935548114436166> ・ **!gece** Gece Olur ve Chati Kapatır.
 <a:diamond:728935548114436166> ・ **!gündüz** Gündüz Olur ve Chati Açar.
-<a:diamond:728935548114436166> ・ **!seç <seslikanalid>** Girmiş Olduğunuz Sesli Kanaldaki Kullanıcılar Arasından Rolleri Seçer
-<a:diamond:728935548114436166> ・ **!gönder @kullanıcı <mesaj>** Etiketlediğiniz Kullanıcıya DM Atarsınız.
-<a:diamond:728935548114436166> ・ **!sustur** Etiketlediğiniz Kullanıcıyı Ses Kanalında Susturur.
+<a:diamond:728935548114436166> ・ **!seç <Sesli Kanal İd>** Sesli Kanaldaki Kullanıcılar Arasından Rolleri Seçer
+<a:diamond:728935548114436166> ・ **!gönder @kullanıcı <mesaj>** Etiketlediğiniz Kullanıcıya Mesaj Atarsınız.
 `)
         .setThumbnail(client.user.avatarURL)
       return message.channel.sendEmbed(embed);
