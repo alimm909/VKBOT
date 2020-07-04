@@ -127,11 +127,11 @@ if(msg.author.id === client.user.id) return;
 const botdm = new Discord.RichEmbed()
 .setTitle(`${client.user.username} Dm`)
 .setTimestamp()
-.setColor("Green")
+.setColor("RANDOM")
 .setThumbnail(`${msg.author.avatarURL}`)
-.setDescription (`**!!gönder** Komutu ile Cevap Verebilirsiniz.`)
+.setDescription (`**!gönder** Komutu İle Cevap Verebilirsiniz!`)
 .addField("Mesaj Atan", msg.author.tag)
-.addField("Gönderen ID", msg.author.id)
+.addField("Gönderen İd", msg.author.id)
 .addField("Gönderilen Mesaj", msg.content)
 
 dm.send(botdm)
@@ -142,4 +142,3 @@ if(msg.channel.bot) return;
 
 
 client.login(ayarlar.token);
-//daphro
