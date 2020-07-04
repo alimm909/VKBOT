@@ -6,13 +6,13 @@ exports.run = (client, message, args) => {
   let id = args[0] 
   let myron = args.slice(1).join(' ');
   
-  if(id.length > 18) return message.reply('Geçerli bir id gir.')  
-  if(!id) return message.reply('Kime dm atacağım sahibim.')
-  if(!myron) return message.reply('Gönderilecek kullanıcının IDsini belirt dostum!')
+  if(id.length > 18) return message.reply('<a:hyr:728937091068854282> ・ Geçerli Bir İd Gir!')  
+  if(!id) return message.reply('<a:hyr:728937091068854282> ・ Kime Dm`den Mesaj Yollayacağım?')
+  if(!myron) return message.reply('<a:hyr:728937091068854282> ・ Gönderilecek Kullanıcının İdi Nerde Hani?')
   
   client.users.get(id).send(myron)
   
- message.channel.send(id + " ID li kullanıcıya **" + myron + "** mesajını gönderdim.") 
+ message.channel.send(id + " İd`li Kullanıcıya **" + myron + "** Mesajını Gönderdim.") 
 };
 exports.conf = {
   enabled: true,  
