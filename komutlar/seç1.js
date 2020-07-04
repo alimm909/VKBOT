@@ -4,7 +4,7 @@ const prefix = ayarlar.prefix
 const client = new Discord.Client();
 module.exports.run = async (client, message, args) => {
   
-  if(!message.member.roles.has("vk yöneticisi rolü id")) return message.channel.send('Sadece **VK Yetkilisi** Bunu Kullanabilir !')
+  if(!message.member.roles.has("vk yöneticisi rolü id")) return message.channel.send('<a:hyr:728937091068854282> ・ Sadece **Yetkili** Bu Komudu Kullanabilir !')
   
        let kanal = message.guild.channels.get(args[0]);
        

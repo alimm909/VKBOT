@@ -4,44 +4,42 @@ const prefix = ayarlar.prefix
 const client = new Discord.Client();
 module.exports.run = async (client, message, args) => {
   
-  if(!message.member.roles.has("vk yetkilisi rolü id")) return message.channel.send('Sadece **VK Yetkilisi** Bunu Kullanabilir !')
+  if(!message.member.roles.has("728928753215995914")) return message.channel.send('<a:hyr:728937091068854282> ・ Sadece **Yetkili** Bu Komudu Kullanabilir !')
           const embed = new Discord.RichEmbed()
           .setAuthor(message.guild.name, message.guild.iconURL)
-          .setColor('gray')
-          .addField(
-                        `<a:kalppp:713757806695809105> Roller <a:kalppp:713757806695809105>`
-,`1.Vampir `)
-          .addField(
-            `▬▬▬▬▬▬`
-,`2.Vampir `)
+          .setColor('RANDOM')
+          .addField(`Roller - 2`
+,`1. Kurt`)
           .addField(
             `▬▬▬▬▬▬`
-,`Doktor `)
+,`2. Kurt`)
           .addField(
             `▬▬▬▬▬▬`
-,`Seri Katil `)
+,`Doktor`)
           .addField(
             `▬▬▬▬▬▬`
-,`Büyücü `)
+,`Seri Katil`)
           .addField(
             `▬▬▬▬▬▬`
-,`Avcı `)
+,`Büyücü`)
           .addField(
             `▬▬▬▬▬▬`
-,`Escort `)
+,`Avcı`)
+          .addField(
+            `▬▬▬▬▬▬`
+,`Escort`)
           .addField(
             `▬▬▬▬▬▬`
 ,`Soytarı
 ▬▬▬▬▬▬`)
           .setTimestamp()
-           .setFooter(`ৡ Developed By Myrøn`)
           message.channel.send(embed)
   message.delete()
         }
 exports.conf = {
   enabled: true,
   guildOnly: true,
-  aliases: ['rol2'],
+  aliases: ['rol2','rol-2','roller-2'],
   permLevel: 0
 };
 exports.help = {
