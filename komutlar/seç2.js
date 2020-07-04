@@ -20,9 +20,6 @@ const embed = new Discord.RichEmbed()
 ,`1. Kurt: ` + kanal.members.random().user)
           .addField(
             `▬▬▬▬▬▬`
-,`2. Kurt: ` + kanal.members.random().user)
-          .addField(
-            `▬▬▬▬▬▬`
 ,`Doktor: ` + kanal.members.random().user)
           .addField(
             `▬▬▬▬▬▬`
