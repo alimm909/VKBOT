@@ -7,7 +7,7 @@ exports.run = (client, message, args) => {
     
    
     if (!kullanici) return message.channel.send("<a:hyr:728937091068854282> ・ Kimi Susturacağını Belirtmedin.")
-    kullanici.setMute(true, `Susturan yetkili: ${message.author.tag}`)
+    kullanici.setMute(true, `Susturan Yetkili: ${message.author.tag}`)
         .then(() =>
             message.channel.send(`<a:uyari:728944635401207870> ・ ${kullanici} Ses Kanallarında Susturuldu.`))
         .catch(console.error);

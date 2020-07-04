@@ -14,7 +14,7 @@ exports.run = (client, message, args) => {
 `<a:venosa_1:697015071661883422> | **!gece** Gece Olur ve Chati Kapatır.
 <a:venosa_2:697015515603927150> | **!gündüz** Gündüz Olur ve Chati Açar.
 <a:venosa_3:697015515415183380> | **!seç<üyeasıyısı> <seslikanalid>** ID'sini Girmiş Olduğunuz Sesli Kanaldaki Kullanıcılar Arasından Rolleri Seçer
-Örnek Kullanım: **!seç20 <seslikanalid>**
+Örnek Kullanım: **!seç1 / !seç2 / !seç3 <Sesli Kanal İd>**
 <a:venosa_4:697015515641806888> | **!gönder @kullanıcı <mesaj>** Etiketlediğiniz Kullanıcıya DM Atarsınız.
 Örnek Kullanım: **!gönder @kullanıcı Senin Rolün Vampir**
 <a:venosa_5:697015079220150284> | **!sustur** Etiketlediğiniz Kullanıcıyı Ses Kanalında Susturur.
