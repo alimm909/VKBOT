@@ -55,9 +55,9 @@ message.channel.send(embed)
 exports.conf = {
   enabled: true,
   guildOnly: true,
-  aliases: ['seç20','seç3'],
+  aliases: ['seç-1','seç1'],
   permLevel: 0
 };
 exports.help = {
-  name: 'seç3'
+  name: 'seç1'
 };
