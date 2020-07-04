@@ -8,15 +8,12 @@ exports.run = (client, message, args) => {
         
         .setColor('0x36393E')
    
-            .addField('<a:loading:697014306268643339> Komutlarımız aşağıda yazmaktadır.', '⠀')
+            .addField('<a:pin:728934006606790679> ・ Komutlarımız Aşağıda Yazmaktadır!', '⠀')
         .addField(
-`VK Komutlar`,
-`<a:venosa_hypsquad:697014806372155413> | **${ayarlar.prefix}yetkili** Yetkili komutlarını gösterir.
-<a:venosa_hypesquad:697014806372155413> | **${ayarlar.prefix}oyuncu** Oyuncu komutlarını gösterir.
-<a:venosa_hypesquad:697014806372155413> | **${ayarlar.prefix}eğlence [KAPALI]** Eğlence komutlarını gösterir.`)
+`Kurt - Adam Komutlar`,
+`<a:diamond:728935548114436166> ・ **${ayarlar.prefix}yetkili** Yetkili Komutlarını Gösterir!
+<a:diamond:728935548114436166> ・ **${ayarlar.prefix}oyuncu** Oyuncu Komutlarını Gösterir!`)
         .setThumbnail(client.user.avatarURL)
-    .addField('<a:kalpler:697013879854727169> Sizde beni sunucunuza davet etmek mi istiyorsunuz ?', '`!!davet` Yazarak Beni Sunucuna Davet Edebilirsin ^^')
-        .setFooter(`Developed By 'Myrøn#6966`)
       return message.channel.sendEmbed(embed);
 
 };
@@ -24,7 +21,7 @@ exports.run = (client, message, args) => {
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: ['help','yardim'],
+  aliases: ['help','yardim','yrd'],
   permLevel: 0,
 };
 

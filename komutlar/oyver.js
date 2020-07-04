@@ -5,7 +5,7 @@ exports.run = (client, message, args) => {
   let user = message.mentions.users.first();
   if (!user) return message.reply('<a:hyr:728937091068854282> ・ Oy Vereceğin Kişiyi Etiketlemelisin !');
   
-  if (user.bot === true) return message.reply('Bir insanı etiketle bot değil!');
+  if (user.bot === true) return message.reply('<a:hyr:728937091068854282> ・ Bir İnsanı Etiketle Bir Botu Değil !');
   let x = /(m a l|ma l|m al|amk|sg|oç|sik|amına|amın|orospu|orospo|çocuğu|orosbu|orosbo|cocugu|mal|salak|kapçuk|amcık|amcuk|sikik|amk malı|amına kodum|amınakoduğum|amına koduğum)/
   if (mesaj.match(x)) return message.reply('<a:hyr:728937091068854282> ・ Lütfen Geçerli Birine Oy Veriniz.');
   

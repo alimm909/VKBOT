@@ -20,8 +20,6 @@ exports.run = (client, message, args) => {
 <a:venosa_5:697015079220150284> | **${ayarlar.prefix}sustur** Etiketlediğiniz Kullanıcıyı Ses Kanalında Susturur.
 `)
         .setThumbnail(client.user.avatarURL)
-    .addField('<a:kalpler:697013879854727169> Sizde beni sunucunuza davet etmek mi istiyorsunuz ?', '`!!davet` Yazarak Beni Sunucuna Davet Edebilirsin ^^')
-        .setFooter(`Developed By 'Myrøn#6966`)
       return message.channel.sendEmbed(embed);
 
 };
