@@ -6,10 +6,8 @@ let botid = ('')
 exports.run = (client, message, args) => {
     const embed = new Discord.RichEmbed()
         
-        .setColor('0x36393E')
-   
-            .addField('<a:pin:728934006606790679> ・ Komutlarımız Aşağıda Yazmaktadır!', '⠀')
-        .addField(
+.setColor('0x36393E')
+.addField(
 `Kurt - Adam Komutlar`,
 `<a:diamond:728935548114436166> ・ **${ayarlar.prefix}yetkili** Yetkili Komutlarını Gösterir!
 <a:diamond:728935548114436166> ・ **${ayarlar.prefix}oyuncu** Oyuncu Komutlarını Gösterir!`)

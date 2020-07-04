@@ -9,7 +9,7 @@ module.exports.run = async (client, message, args) => {
        let kanal = message.guild.channels.get(args[0]);
        
        if(!kanal) {
-         message.channel.send("Rolleri Seçmek İçin Kanal İdsini Giriniz. Doğru kullanım **!seç2 <Sesli Kanal İd>**")
+         message.channel.send("<a:hyr:728937091068854282> ・ Rolleri Seçmek İçin Kanal İdsini Giriniz. Doğru kullanım **!seç2 <Sesli Kanal İd>**")
        } 
         if(kanal) {
           const embed = new Discord.RichEmbed()
@@ -29,13 +29,13 @@ module.exports.run = async (client, message, args) => {
 ,`Seri Katil: ` + kanal.members.random().user)
           .addField(
             `▬▬▬▬▬▬`
-,`Büyücü: ` + kanal.members.random().user)
+,`Medyum: ` + kanal.members.random().user)
           .addField(
             `▬▬▬▬▬▬`
 ,`Avcı: ` + kanal.members.random().user)
           .addField(
             `▬▬▬▬▬▬`
-,`Escort: ` + kanal.members.random().user)
+,`Barışçıl: ` + kanal.members.random().user)
           .addField(
             `▬▬▬▬▬▬`
 ,`Soytarı: ` + kanal.members.random().user)
